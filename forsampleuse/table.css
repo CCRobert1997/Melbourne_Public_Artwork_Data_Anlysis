@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+table {
+    border-spacing: 0px;   
+}    
+
+table td{ 
+    padding: 5px 10px 5px;
+    margin: 0px;
+    text-align: left;
+    font-family:"Lora", sans-serif;
+    font-size: 1.5em;
+    border-bottom: 1px solid grey;
+
+}
+/* css-2 */
+tr > td:first-child {
+    color: white;    
+    background-color: #BDBF75;
+}
+tr > td:first-child + td{  /* second column */
+    text-align: center;
+    background-color: #D9C68F;
+}
+tr > td:first-child + td + td { /* third column */
+    text-align: right;
+    color: #736A65;
+    background-color: #D9BC9A;
+}
+/* css-3, please use nth-child() */
